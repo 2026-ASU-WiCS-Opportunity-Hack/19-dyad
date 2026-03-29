@@ -1,0 +1,101 @@
+[
+  {
+    "id": "kg-1",
+    "type": "journal",
+    "title": "Transforming Healthcare Operations",
+    "summary": "Philips Healthcare used Action Learning to resolve collaboration challenges while embedding a decentralized operating model and protecting patient safety.",
+    "plainLanguageSummary": "This case shows how Action Learning helps healthcare teams solve cross-functional operating problems while keeping patient safety central.",
+    "keyFindings": [
+      "Action Learning can improve collaboration during operating-model change.",
+      "Role clarity and patient safety can be addressed together rather than separately.",
+      "Healthcare teams respond well to a question-first facilitation method."
+    ],
+    "tags": [
+      "healthcare",
+      "operations",
+      "patient safety",
+      "team collaboration"
+    ],
+    "languages": [
+      "English",
+      "Portuguese",
+      "French"
+    ],
+    "sourceUrl": "https://wial.org/wp-content/uploads/WIAL-Case-Study-Philips.pdf",
+    "promoSeed": "New case study: how Philips used Action Learning to support collaboration and patient safety during operating-model change."
+  },
+  {
+    "id": "kg-2",
+    "type": "journal",
+    "title": "Reviving Unity and Rebuilding Trust",
+    "summary": "The Red Cross chapter in Peru used Action Learning to repair relationships, rebuild trust, and re-center leadership around shared mission outcomes.",
+    "plainLanguageSummary": "Action Learning can help teams recover from internal conflict by creating space for disciplined questions and shared accountability.",
+    "keyFindings": [
+      "Trust repair needs facilitated reflection, not just new policies.",
+      "Conflict and mission drift can be addressed in the same Action Learning cycle.",
+      "Leadership teams benefit from visible commitment to listening."
+    ],
+    "tags": [
+      "nonprofit",
+      "trust",
+      "conflict resolution",
+      "leadership"
+    ],
+    "languages": [
+      "English",
+      "Spanish",
+      "Portuguese"
+    ],
+    "sourceUrl": "https://wial.org/wp-content/uploads/Reviving-Unity-1.pdf",
+    "promoSeed": "What happens when an organization is fractured internally? This WIAL case study shows how Action Learning can rebuild trust."
+  },
+  {
+    "id": "kg-3",
+    "type": "webinar",
+    "title": "Why Action Learning Works for Team Performance",
+    "summary": "A practical webinar focused on how Action Learning improves decision quality, team learning, and leadership capability in live organizational contexts.",
+    "plainLanguageSummary": "This webinar explains Action Learning in practical terms and ties the method to measurable team performance gains.",
+    "keyFindings": [
+      "Action Learning creates disciplined reflection inside real work.",
+      "It develops leaders while solving urgent organizational problems.",
+      "The method is especially effective for cross-functional teams."
+    ],
+    "tags": [
+      "team performance",
+      "leadership development",
+      "webinar",
+      "practical introduction"
+    ],
+    "languages": [
+      "English",
+      "French",
+      "Portuguese"
+    ],
+    "sourceUrl": "https://wial.org/",
+    "promoSeed": "Need a fast introduction to Action Learning for decision-makers? This webinar breaks down the business value in plain language."
+  },
+  {
+    "id": "kg-4",
+    "type": "journal",
+    "title": "Innovation in Financial Services",
+    "summary": "FirstBank of Nigeria used Action Learning in its corporate academy to sustain innovation across a large, distributed branch network.",
+    "plainLanguageSummary": "The case demonstrates how Action Learning can support innovation in large financial institutions with many branches and complex coordination needs.",
+    "keyFindings": [
+      "Large financial organizations can use Action Learning at branch-network scale.",
+      "Corporate academies can become real operating levers, not just training centers.",
+      "Innovation efforts improve when teams work on live problems."
+    ],
+    "tags": [
+      "finance",
+      "innovation",
+      "corporate academy",
+      "banking"
+    ],
+    "languages": [
+      "English",
+      "French"
+    ],
+    "sourceUrl": "https://wial.org/wp-content/uploads/Action-Learning-in-FirstBank-of-Nigeria.pdf",
+    "promoSeed": "How do large banks keep innovation practical across hundreds of branches? This WIAL case offers a compelling answer."
+  }
+]

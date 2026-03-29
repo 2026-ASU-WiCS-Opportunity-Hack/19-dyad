@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+  --muted: #f7f7f7;
+  --muted-foreground: #5f6368;
+  --card: #ffffff;
+  --border: #e5e7eb;
+  --primary: #111111;
+  --primary-foreground: #ffffff;
+  --accent: #6b7280;
+  --accent-foreground: #ffffff;
+  --ring: #9ca3af;
+  --success: #2f5d50;
+  --warning: #8a6b2f;
+  --danger: #8b3a3a;
+  --shadow: 0 16px 34px rgba(17, 17, 17, 0.04);
+}
+* { border-color: var(--border); }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  text-rendering: optimizeLegibility;
+  min-height: 100vh;
+}
+::selection { background: rgba(17, 17, 17, 0.08); }
+a { text-decoration: none; }
+img { max-width: 100%; height: auto; }
+button, input, select, textarea { font: inherit; }
+.container-shell { max-width: 1200px; margin: 0 auto; padding-inline: 1rem; }
+.surface { background: var(--card); border: 1px solid var(--border); box-shadow: var(--shadow); }
+.section-title { font-size: clamp(2rem, 2vw + 1.2rem, 3.3rem); line-height: 1.08; font-weight: 700; letter-spacing: -0.03em; }
+.kicker { display: inline-flex; align-items: center; border: 1px solid rgba(17,17,17,0.1); border-radius: 999px; padding: 0.42rem 0.8rem; font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted-foreground); background: #ffffff; }
+.grid-soft { display: grid; gap: 1.25rem; }
+.card-subtle { background: #ffffff; border: 1px solid rgba(17,17,17,0.08); border-radius: 1.35rem; box-shadow: 0 8px 20px rgba(17,17,17,0.02); }
+.text-balance { text-wrap: balance; }
+.typewriter { font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, monospace; letter-spacing: 0.12em; }
+.sr-only-focusable:focus { position: static; width: auto; height: auto; padding: 0.25rem 0.5rem; margin: 0; overflow: visible; clip: auto; white-space: normal; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-delay: 0ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

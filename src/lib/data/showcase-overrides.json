@@ -1,0 +1,486 @@
+{
+  "chapterOverrides": {
+    "brazil": {
+      "contactEmail": "brazil@wial.org",
+      "heroTitle": "Action Learning for organizations across Brazil",
+      "heroSubtitle": "Portuguese-first chapter publishing, strong coach visibility, and shared WIAL governance.",
+      "testimonialAuthor": "Brazil chapter participant",
+      "organizationalClients": [
+        "Manufacturing",
+        "Financial services",
+        "Healthcare"
+      ]
+    },
+    "nigeria": {
+      "contactEmail": "nigeria@wial.org",
+      "heroTitle": "Action Learning for Nigerian leadership teams",
+      "heroSubtitle": "A chapter presence built for corporate, public-sector, and nonprofit problem solving.",
+      "focusAreas": [
+        "Leadership development",
+        "Public-sector transformation",
+        "Team effectiveness"
+      ],
+      "organizationalClients": [
+        "Financial services",
+        "Energy",
+        "Public sector"
+      ]
+    },
+    "united-states": {
+      "contactEmail": "usa@wial.org",
+      "heroSubtitle": "Governed chapter operations, strong coach discovery, and visible local events under one brand.",
+      "organizationalClients": [
+        "Healthcare systems",
+        "Higher education",
+        "Technology firms"
+      ]
+    },
+    "malaysia": {
+      "contactEmail": "malaysia@wial.org",
+      "primaryLanguage": "English",
+      "heroSubtitle": "Regional leadership development with multilingual discovery and shared global standards.",
+      "organizationalClients": [
+        "Manufacturing",
+        "Technology",
+        "Public sector"
+      ]
+    },
+    "kenya": {
+      "slug": "kenya",
+      "name": "WIAL Kenya",
+      "region": "Africa",
+      "primaryLanguage": "English",
+      "coachCount": 3,
+      "heroTitle": "Action Learning for East African leadership teams",
+      "heroSubtitle": "A chapter model that supports local credibility while preserving WIAL's global standards.",
+      "about": "WIAL Kenya supports locally relevant Action Learning programs, visible chapter events, and trusted coach visibility within the shared WIAL network.",
+      "focusAreas": [
+        "Leadership development",
+        "Team learning",
+        "Public-sector innovation"
+      ],
+      "contactEmail": "kenya@wial.org",
+      "featuredEventTitle": "Leadership problem-solving session for East African organizations",
+      "featuredEventDate": "2026-07-18",
+      "testimonialQuote": "The chapter experience feels local and practical while still reflecting the same WIAL quality standards.",
+      "testimonialAuthor": "Kenya chapter participant",
+      "organizationalClients": [
+        "Banking",
+        "NGOs",
+        "Government"
+      ],
+      "themeLocked": true,
+      "status": "template-ready"
+    }
+  },
+  "coachOverrides": {
+    "coach-013": {
+      "headline": "CALC \u2022 Leadership development and team learning",
+      "about": "Supports Brazilian organizations using Action Learning to strengthen leadership teams, improve reflection practices, and create shared accountability during change.",
+      "certificationLevel": "CALC",
+      "certificationLabel": "CALC",
+      "email": "andrea.nery@wial.org",
+      "searchKeywords": [
+        "leadership development",
+        "team learning",
+        "manufacturing",
+        "Brazil"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-038": {
+      "headline": "PALC \u2022 Team dynamics and leadership cohorts",
+      "about": "Works with teams and cohort-based leadership programs, with emphasis on practical Action Learning design for organizations navigating growth and coordination challenges.",
+      "certificationLevel": "PALC",
+      "certificationLabel": "PALC",
+      "email": "beatriz.pacheco@wial.org",
+      "searchKeywords": [
+        "team dynamics",
+        "leadership cohorts",
+        "Brazil",
+        "organizational development"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-048": {
+      "headline": "SALC \u2022 Leadership systems and facilitator development",
+      "about": "Senior Brazilian coach focused on facilitator development, leadership systems, and designing Action Learning engagements for complex organizations.",
+      "certificationLevel": "SALC",
+      "certificationLabel": "SALC",
+      "email": "camila.valente@wial.org",
+      "searchKeywords": [
+        "facilitator development",
+        "leadership systems",
+        "Brazil",
+        "complex organizations"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-080": {
+      "headline": "PALC \u2022 Operational excellence and coaching practice",
+      "about": "Partners with operational teams that need clearer accountability, better cross-functional conversations, and practical leadership growth using Action Learning.",
+      "certificationLevel": "PALC",
+      "certificationLabel": "PALC",
+      "email": "denise.lessa@wial.org",
+      "searchKeywords": [
+        "operational excellence",
+        "cross-functional teams",
+        "Brazil",
+        "leadership growth"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-015": {
+      "headline": "SALC \u2022 Strategy execution and team effectiveness",
+      "about": "Supports U.S.-based organizations that need to connect strategy execution with stronger leadership conversations and measurable team effectiveness.",
+      "certificationLevel": "SALC",
+      "certificationLabel": "SALC",
+      "email": "andrew.rahaman@wial.org",
+      "searchKeywords": [
+        "strategy execution",
+        "team effectiveness",
+        "United States",
+        "leadership"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-017": {
+      "headline": "PALC \u2022 Higher education and nonprofit facilitation",
+      "about": "Works with universities and mission-driven organizations that want to improve collaborative problem solving and develop reflective leaders.",
+      "certificationLevel": "PALC",
+      "certificationLabel": "PALC",
+      "email": "angela.jaquith@wial.org",
+      "searchKeywords": [
+        "higher education",
+        "nonprofit",
+        "facilitation",
+        "United States"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-039": {
+      "headline": "CALC \u2022 Team learning and client workshop delivery",
+      "about": "Facilitates Action Learning sessions for organizations that want a practical entry point into team learning and leadership development.",
+      "certificationLevel": "CALC",
+      "certificationLabel": "CALC",
+      "email": "benita.jordan@wial.org",
+      "searchKeywords": [
+        "team learning",
+        "workshops",
+        "United States",
+        "leadership development"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-057": {
+      "headline": "MALC \u2022 Executive learning and coach development",
+      "about": "Master-level coach supporting executive teams, coach development, and large-scale Action Learning deployment across complex institutions.",
+      "certificationLevel": "MALC",
+      "certificationLabel": "MALC",
+      "email": "chuck.appleby@wial.org",
+      "searchKeywords": [
+        "executive teams",
+        "coach development",
+        "large-scale deployment",
+        "United States"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-012": {
+      "headline": "CALC \u2022 Regional leadership and team alignment",
+      "about": "Supports Malaysian teams working across functions and geographies, with emphasis on alignment, accountability, and Action Learning practice.",
+      "certificationLevel": "CALC",
+      "certificationLabel": "CALC",
+      "email": "andrea.chow@wial.org",
+      "searchKeywords": [
+        "Malaysia",
+        "team alignment",
+        "regional leadership",
+        "Action Learning"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-020": {
+      "headline": "PALC \u2022 Organizational learning and change",
+      "about": "Works with organizations navigating transformation and needing Action Learning as a practical framework for leadership and change.",
+      "certificationLevel": "PALC",
+      "certificationLabel": "PALC",
+      "email": "angeline.yong@wial.org",
+      "searchKeywords": [
+        "organizational learning",
+        "change",
+        "Malaysia",
+        "leadership"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-032": {
+      "headline": "SALC \u2022 Public-sector and enterprise facilitation",
+      "about": "Experienced Malaysian coach helping enterprise and public-sector teams strengthen decision-making and shared responsibility through Action Learning.",
+      "certificationLevel": "SALC",
+      "certificationLabel": "SALC",
+      "email": "hangtuah.baharudin@wial.org",
+      "searchKeywords": [
+        "public sector",
+        "enterprise",
+        "Malaysia",
+        "facilitation"
+      ],
+      "sourceGapFlags": []
+    },
+    "coach-058": {
+      "headline": "CALC \u2022 Team development and workshop facilitation",
+      "about": "Facilitates workshops and internal development sessions for teams seeking better collaboration and clearer learning habits.",
+      "certificationLevel": "CALC",
+      "certificationLabel": "CALC",
+      "email": "jiai.ying@wial.org",
+      "searchKeywords": [
+        "team development",
+        "workshops",
+        "Malaysia",
+        "collaboration"
+      ],
+      "sourceGapFlags": []
+    }
+  },
+  "manualShowcaseCoaches": [
+    {
+      "id": "coach-showcase-ng-001",
+      "name": "Adaeze Okoye",
+      "headline": "PALC \u2022 Leadership development and public-sector teams",
+      "company": "WIAL Nigeria",
+      "locationText": "Lagos, Nigeria",
+      "countrySlug": "nigeria",
+      "countryName": "Nigeria",
+      "citySlug": "lagos",
+      "cityName": "Lagos",
+      "chapterSlug": "nigeria",
+      "chapterName": "WIAL Nigeria",
+      "region": "Africa",
+      "profileUrl": null,
+      "externalUrl": null,
+      "phone": "+234 800 100 0001",
+      "email": "adaeze.okoye@wial.org",
+      "website": null,
+      "about": "Supports Nigerian organizations that want stronger leadership conversations, team accountability, and problem-solving practices rooted in Action Learning.",
+      "languages": [
+        "English"
+      ],
+      "languageCodes": [
+        "en"
+      ],
+      "certificationLevel": "PALC",
+      "certificationLabel": "PALC",
+      "approvalStatus": "APPROVED",
+      "sourceType": "manual",
+      "searchKeywords": [
+        "Nigeria",
+        "leadership development",
+        "public sector",
+        "team accountability"
+      ],
+      "searchDocument": "Adaeze Okoye PALC Lagos Nigeria English leadership development public sector team accountability Action Learning",
+      "dataCompleteness": 0.96,
+      "sourceGapFlags": []
+    },
+    {
+      "id": "coach-showcase-ng-002",
+      "name": "Tunde Adebayo",
+      "headline": "SALC \u2022 Manufacturing teams and operational leadership",
+      "company": "WIAL Nigeria",
+      "locationText": "Abuja, Nigeria",
+      "countrySlug": "nigeria",
+      "countryName": "Nigeria",
+      "citySlug": "abuja",
+      "cityName": "Abuja",
+      "chapterSlug": "nigeria",
+      "chapterName": "WIAL Nigeria",
+      "region": "Africa",
+      "profileUrl": null,
+      "externalUrl": null,
+      "phone": "+234 800 100 0002",
+      "email": "tunde.adebayo@wial.org",
+      "website": null,
+      "about": "Works with manufacturing and infrastructure teams that need practical leadership development, stronger reflection habits, and better team coordination.",
+      "languages": [
+        "English"
+      ],
+      "languageCodes": [
+        "en"
+      ],
+      "certificationLevel": "SALC",
+      "certificationLabel": "SALC",
+      "approvalStatus": "APPROVED",
+      "sourceType": "manual",
+      "searchKeywords": [
+        "Nigeria",
+        "manufacturing",
+        "operational leadership",
+        "team coordination"
+      ],
+      "searchDocument": "Tunde Adebayo SALC Abuja Nigeria English manufacturing operational leadership team coordination Action Learning",
+      "dataCompleteness": 0.97,
+      "sourceGapFlags": []
+    },
+    {
+      "id": "coach-showcase-ng-003",
+      "name": "Ifeoma Nwosu",
+      "headline": "CALC \u2022 Team learning and client facilitation",
+      "company": "WIAL Nigeria",
+      "locationText": "Port Harcourt, Nigeria",
+      "countrySlug": "nigeria",
+      "countryName": "Nigeria",
+      "citySlug": "port-harcourt",
+      "cityName": "Port Harcourt",
+      "chapterSlug": "nigeria",
+      "chapterName": "WIAL Nigeria",
+      "region": "Africa",
+      "profileUrl": null,
+      "externalUrl": null,
+      "phone": "+234 800 100 0003",
+      "email": "ifeoma.nwosu@wial.org",
+      "website": null,
+      "about": "Facilitates Action Learning sessions for clients seeking better team learning habits, stronger reflection, and practical leadership growth.",
+      "languages": [
+        "English"
+      ],
+      "languageCodes": [
+        "en"
+      ],
+      "certificationLevel": "CALC",
+      "certificationLabel": "CALC",
+      "approvalStatus": "APPROVED",
+      "sourceType": "manual",
+      "searchKeywords": [
+        "Nigeria",
+        "team learning",
+        "facilitation",
+        "leadership growth"
+      ],
+      "searchDocument": "Ifeoma Nwosu CALC Port Harcourt Nigeria English team learning facilitation leadership growth Action Learning",
+      "dataCompleteness": 0.95,
+      "sourceGapFlags": []
+    },
+    {
+      "id": "coach-showcase-ke-001",
+      "name": "Grace Wanjiku",
+      "headline": "PALC \u2022 Leadership development and nonprofit teams",
+      "company": "WIAL Kenya",
+      "locationText": "Nairobi, Kenya",
+      "countrySlug": "kenya",
+      "countryName": "Kenya",
+      "citySlug": "nairobi",
+      "cityName": "Nairobi",
+      "chapterSlug": "kenya",
+      "chapterName": "WIAL Kenya",
+      "region": "Africa",
+      "profileUrl": null,
+      "externalUrl": null,
+      "phone": "+254 700 100 001",
+      "email": "grace.wanjiku@wial.org",
+      "website": null,
+      "about": "Supports Kenyan nonprofits and enterprise teams using Action Learning to strengthen leadership practice, accountability, and collaborative problem solving.",
+      "languages": [
+        "English",
+        "Swahili"
+      ],
+      "languageCodes": [
+        "en",
+        "sw"
+      ],
+      "certificationLevel": "PALC",
+      "certificationLabel": "PALC",
+      "approvalStatus": "APPROVED",
+      "sourceType": "manual",
+      "searchKeywords": [
+        "Kenya",
+        "nonprofit",
+        "leadership development",
+        "collaborative problem solving"
+      ],
+      "searchDocument": "Grace Wanjiku PALC Nairobi Kenya English Swahili nonprofit leadership development collaborative problem solving Action Learning",
+      "dataCompleteness": 0.98,
+      "sourceGapFlags": []
+    },
+    {
+      "id": "coach-showcase-ke-002",
+      "name": "David Kiptoo",
+      "headline": "SALC \u2022 Public-sector transformation and team effectiveness",
+      "company": "WIAL Kenya",
+      "locationText": "Nairobi, Kenya",
+      "countrySlug": "kenya",
+      "countryName": "Kenya",
+      "citySlug": "nairobi",
+      "cityName": "Nairobi",
+      "chapterSlug": "kenya",
+      "chapterName": "WIAL Kenya",
+      "region": "Africa",
+      "profileUrl": null,
+      "externalUrl": null,
+      "phone": "+254 700 100 002",
+      "email": "david.kiptoo@wial.org",
+      "website": null,
+      "about": "Works with public-sector and institutional teams that need practical facilitation, reflection routines, and stronger decision-making under pressure.",
+      "languages": [
+        "English"
+      ],
+      "languageCodes": [
+        "en"
+      ],
+      "certificationLevel": "SALC",
+      "certificationLabel": "SALC",
+      "approvalStatus": "APPROVED",
+      "sourceType": "manual",
+      "searchKeywords": [
+        "Kenya",
+        "public sector",
+        "team effectiveness",
+        "decision-making"
+      ],
+      "searchDocument": "David Kiptoo SALC Nairobi Kenya English public sector team effectiveness decision making Action Learning",
+      "dataCompleteness": 0.97,
+      "sourceGapFlags": []
+    },
+    {
+      "id": "coach-showcase-ke-003",
+      "name": "Mercy Achieng",
+      "headline": "CALC \u2022 Team learning and leadership workshops",
+      "company": "WIAL Kenya",
+      "locationText": "Mombasa, Kenya",
+      "countrySlug": "kenya",
+      "countryName": "Kenya",
+      "citySlug": "mombasa",
+      "cityName": "Mombasa",
+      "chapterSlug": "kenya",
+      "chapterName": "WIAL Kenya",
+      "region": "Africa",
+      "profileUrl": null,
+      "externalUrl": null,
+      "phone": "+254 700 100 003",
+      "email": "mercy.achieng@wial.org",
+      "website": null,
+      "about": "Facilitates chapter workshops for teams seeking a practical introduction to Action Learning and a more disciplined approach to reflection and problem solving.",
+      "languages": [
+        "English",
+        "Swahili"
+      ],
+      "languageCodes": [
+        "en",
+        "sw"
+      ],
+      "certificationLevel": "CALC",
+      "certificationLabel": "CALC",
+      "approvalStatus": "APPROVED",
+      "sourceType": "manual",
+      "searchKeywords": [
+        "Kenya",
+        "workshops",
+        "team learning",
+        "problem solving"
+      ],
+      "searchDocument": "Mercy Achieng CALC Mombasa Kenya English Swahili workshops team learning problem solving Action Learning",
+      "dataCompleteness": 0.95,
+      "sourceGapFlags": []
+    }
+  ]
+}

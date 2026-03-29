@@ -1,0 +1,569 @@
+[
+  {
+    "slug": "brazil",
+    "name": "WIAL Brazil",
+    "region": "South America",
+    "primaryLanguage": "Portuguese",
+    "coachCount": 9,
+    "heroTitle": "Action Learning for organizations across Brazil",
+    "heroSubtitle": "Portuguese-first chapter publishing, strong coach visibility, and shared WIAL governance.",
+    "about": "Brazil is the ideal chapter to demonstrate multilingual discovery and culturally adapted content generation.",
+    "focusAreas": [
+      "Leadership development",
+      "Operational excellence",
+      "Team learning"
+    ],
+    "contactEmail": "brazil@wial.org",
+    "featuredEventTitle": "Sessão aberta de Action Learning para líderes de equipes",
+    "featuredEventDate": "2026-06-03",
+    "testimonialQuote": "A nova plataforma facilita descobrir coaches e divulgar eventos locais com muito mais clareza.",
+    "testimonialAuthor": "Brazil chapter participant",
+    "organizationalClients": [
+      "Manufacturing",
+      "Financial services",
+      "Healthcare"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "cambodia",
+    "name": "WIAL Cambodia",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "Khmer",
+    "coachCount": 2,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "canada",
+    "name": "WIAL Canada",
+    "region": "North America",
+    "primaryLanguage": "English",
+    "coachCount": 1,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "china",
+    "name": "WIAL China",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "Mandarin",
+    "coachCount": 5,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "france",
+    "name": "WIAL France",
+    "region": "Europe",
+    "primaryLanguage": "French",
+    "coachCount": 3,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "hong-kong",
+    "name": "WIAL Hong Kong",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "Cantonese",
+    "coachCount": 4,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "ireland",
+    "name": "WIAL Ireland",
+    "region": "Europe",
+    "primaryLanguage": "English",
+    "coachCount": 1,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "kenya",
+    "name": "WIAL Kenya",
+    "region": "Africa",
+    "primaryLanguage": "English",
+    "coachCount": 3,
+    "heroTitle": "Action Learning for East African leadership teams",
+    "heroSubtitle": "A chapter model that supports local credibility while preserving WIAL's global standards.",
+    "about": "WIAL Kenya demonstrates how a new chapter can publish locally relevant Action Learning content, promote events, and surface coaches under a consistent WIAL structure.",
+    "focusAreas": [
+      "Leadership development",
+      "Team learning",
+      "Public-sector innovation"
+    ],
+    "contactEmail": "kenya@wial.org",
+    "featuredEventTitle": "Leadership problem-solving session for East African organizations",
+    "featuredEventDate": "2026-07-18",
+    "testimonialQuote": "The chapter experience feels local and practical while still reflecting the same WIAL quality standards.",
+    "testimonialAuthor": "Kenya chapter participant",
+    "organizationalClients": [
+      "Banking",
+      "NGOs",
+      "Government"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "malaysia",
+    "name": "WIAL Malaysia",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "English",
+    "coachCount": 13,
+    "heroTitle": "Action Learning for regional leadership teams",
+    "heroSubtitle": "Regional leadership development with multilingual discovery and shared global standards.",
+    "about": "Malaysia represents the need for a multilingual chapter model across rapidly evolving regional business contexts.",
+    "focusAreas": [
+      "Leadership development",
+      "Regional collaboration",
+      "Operational excellence"
+    ],
+    "contactEmail": "malaysia@wial.org",
+    "featuredEventTitle": "Leadership problem-solving roundtable",
+    "featuredEventDate": "2026-07-08",
+    "testimonialQuote": "A single chapter platform makes it easier to explain the method and introduce local coaches.",
+    "testimonialAuthor": "Chapter participant",
+    "organizationalClients": [
+      "Manufacturing",
+      "Technology",
+      "Public sector"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "netherlands",
+    "name": "WIAL Netherlands",
+    "region": "Europe",
+    "primaryLanguage": "Dutch",
+    "coachCount": 8,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "nigeria",
+    "name": "WIAL Nigeria",
+    "region": "Africa",
+    "primaryLanguage": "English",
+    "coachCount": 3,
+    "heroTitle": "Action Learning for Nigerian leadership teams",
+    "heroSubtitle": "A chapter presence built for corporate, public-sector, and nonprofit problem solving.",
+    "about": "WIAL Nigeria shows why chapter governance matters: local relevance, clear contact pathways, and global brand consistency.",
+    "focusAreas": [
+      "Leadership development",
+      "Public-sector transformation",
+      "Team effectiveness"
+    ],
+    "contactEmail": "nigeria@wial.org",
+    "featuredEventTitle": "Certified Action Learning Foundations Session",
+    "featuredEventDate": "2026-05-14",
+    "testimonialQuote": "Action Learning gave our leadership team a practical way to solve live business problems together.",
+    "testimonialAuthor": "Regional chapter participant",
+    "organizationalClients": [
+      "Financial services",
+      "Energy",
+      "Public sector"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "philippines",
+    "name": "WIAL Philippines",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "Filipino",
+    "coachCount": 2,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "poland",
+    "name": "WIAL Poland",
+    "region": "Europe",
+    "primaryLanguage": "Polish",
+    "coachCount": 14,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "singapore",
+    "name": "WIAL Singapore",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "English",
+    "coachCount": 5,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "south-africa",
+    "name": "WIAL South Africa",
+    "region": "Africa",
+    "primaryLanguage": "English",
+    "coachCount": 1,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "syria",
+    "name": "WIAL Syria",
+    "region": "Middle East",
+    "primaryLanguage": "Arabic",
+    "coachCount": 1,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "taiwan",
+    "name": "WIAL Taiwan",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "Mandarin",
+    "coachCount": 1,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "thailand",
+    "name": "WIAL Thailand",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "Thai",
+    "coachCount": 7,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "united-kingdom",
+    "name": "WIAL United Kingdom",
+    "region": "Europe",
+    "primaryLanguage": "English",
+    "coachCount": 2,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "united-states",
+    "name": "WIAL USA",
+    "region": "North America",
+    "primaryLanguage": "English",
+    "coachCount": 15,
+    "heroTitle": "A chapter platform built for scale across the U.S.",
+    "heroSubtitle": "Governed chapter operations, strong coach discovery, and visible local events under one brand.",
+    "about": "The U.S. chapter is the clearest example of a larger affiliate that benefits from template inheritance and editorial zones.",
+    "focusAreas": [
+      "Corporate learning",
+      "Higher education",
+      "Nonprofit leadership"
+    ],
+    "contactEmail": "usa@wial.org",
+    "featuredEventTitle": "Action Learning for complex organizational change",
+    "featuredEventDate": "2026-06-10",
+    "testimonialQuote": "The chapter model finally makes local content visible without fragmenting the WIAL brand.",
+    "testimonialAuthor": "U.S. affiliate director",
+    "organizationalClients": [
+      "Healthcare systems",
+      "Higher education",
+      "Technology firms"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  },
+  {
+    "slug": "vietnam",
+    "name": "WIAL Vietnam",
+    "region": "Asia-Pacific",
+    "primaryLanguage": "Vietnamese",
+    "coachCount": 6,
+    "heroTitle": "A governed chapter website with local editorial control",
+    "heroSubtitle": "Consistent WIAL branding, local events, coach discovery, and lightweight performance for global audiences.",
+    "about": "This chapter page is generated from the shared WIAL template and local chapter metadata. It preserves global brand rules while allowing local content updates.",
+    "focusAreas": [
+      "Leadership development",
+      "Team effectiveness",
+      "Organizational learning"
+    ],
+    "contactEmail": "global@wial.org",
+    "featuredEventTitle": "Action Learning open house",
+    "featuredEventDate": "2026-06-20",
+    "testimonialQuote": "The shared platform gives our chapter a cleaner public presence and a better way to stay aligned with WIAL Global.",
+    "testimonialAuthor": "Chapter lead",
+    "organizationalClients": [
+      "Corporate teams",
+      "Public sector",
+      "Education"
+    ],
+    "themeLocked": true,
+    "status": "active"
+  }
+]

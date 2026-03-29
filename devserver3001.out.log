@@ -1,0 +1,10 @@
+
+> wial-hub@0.2.0 dev
+> next dev --port 3001
+
+   ▲ Next.js 15.2.1
+   - Local:        http://localhost:3001
+   - Network:      http://172.23.144.1:3001
+
+ ✓ Starting...
+ ✓ Ready in 3s

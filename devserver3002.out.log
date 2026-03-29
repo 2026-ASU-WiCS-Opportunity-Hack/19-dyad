@@ -1,0 +1,95 @@
+
+> wial-hub@0.2.0 dev
+> next dev --port 3002
+
+   ▲ Next.js 15.2.1
+   - Local:        http://localhost:3002
+   - Network:      http://172.23.144.1:3002
+
+ ✓ Starting...
+ ✓ Ready in 2.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.5s (840 modules)
+ GET / 200 in 5058ms
+ GET / 200 in 221ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 2.6s (878 modules)
+ GET / 200 in 4730ms
+ GET /coaches 200 in 4775ms
+ GET /about 200 in 4780ms
+ GET / 200 in 1884ms
+ ○ Compiling /resources ...
+ ✓ Compiled /resources in 1484ms (902 modules)
+ GET /resources 200 in 1837ms
+ GET /chapters 200 in 1891ms
+ GET /events 200 in 1845ms
+ ○ Compiling /certification ...
+ ✓ Compiled /certification in 1688ms (920 modules)
+ GET /certification 200 in 2109ms
+ GET /contact 200 in 2114ms
+ ○ Compiling /api/match ...
+ ✓ Compiled /api/match in 1855ms (966 modules)
+ GET / 200 in 367ms
+ POST /api/match 200 in 7972ms
+ ✓ Compiled in 3.2s (879 modules)
+ GET / 200 in 533ms
+ ✓ Compiled /api/match in 169ms (520 modules)
+ POST /api/match 200 in 6737ms
+ POST /api/match 200 in 3395ms
+ ○ Compiling /coaches ...
+ ✓ Compiled /coaches in 559ms (537 modules)
+ GET /coaches 200 in 826ms
+ ✓ Compiled /about in 252ms (544 modules)
+ GET /about 200 in 427ms
+ GET / 200 in 49ms
+ GET /about 200 in 18ms
+ GET / 200 in 52ms
+ POST /api/match 200 in 5541ms
+ ✓ Compiled in 1979ms (886 modules)
+ GET / 200 in 377ms
+ ✓ Compiled in 1454ms (886 modules)
+ GET / 200 in 184ms
+ ✓ Compiled /coaches in 196ms (510 modules)
+ GET /coaches 200 in 335ms
+ ✓ Compiled in 2.2s (903 modules)
+ GET /coaches 200 in 179ms
+ ○ Compiling /chapters ...
+ ✓ Compiled /chapters in 533ms (512 modules)
+ GET /chapters 200 in 659ms
+ GET /chapters 200 in 38ms
+ ✓ Compiled /events in 269ms (516 modules)
+ GET /events 200 in 403ms
+ GET /events 200 in 44ms
+ ✓ Compiled /resources in 253ms (527 modules)
+ GET /resources 200 in 355ms
+ GET /resources 200 in 42ms
+ ○ Compiling /api/knowledge ...
+ ✓ Compiled /api/knowledge in 846ms (950 modules)
+ GET /resources 200 in 513ms
+ POST /api/knowledge 200 in 3608ms
+ POST /api/knowledge 200 in 17ms
+ ○ Compiling /api/translate ...
+ ✓ Compiled /api/translate in 962ms (934 modules)
+ POST /api/translate 200 in 4117ms
+ POST /api/translate 200 in 2401ms
+ POST /api/translate 200 in 1841ms
+ ✓ Compiled in 2.9s (914 modules)
+ GET /resources 200 in 667ms
+ ✓ Compiled in 1007ms (914 modules)
+ GET /resources 200 in 201ms
+ GET / 200 in 94ms
+ GET /resources 200 in 33ms
+ GET /resources 200 in 51ms
+ ✓ Compiled in 1945ms (914 modules)
+ GET /resources 200 in 225ms
+ ✓ Compiled in 1628ms (914 modules)
+ GET /resources 200 in 235ms
+ ○ Compiling /events ...
+ ✓ Compiled /events in 1713ms (526 modules)
+ GET /events 200 in 2075ms
+ ✓ Compiled /contact in 249ms (521 modules)
+ GET /contact 200 in 382ms
+ GET /contact 200 in 41ms
+ GET /resources 200 in 46ms
+ ✓ Compiled in 1329ms (906 modules)
+ GET /resources 200 in 121ms
