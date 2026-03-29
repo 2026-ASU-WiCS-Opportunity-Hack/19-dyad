@@ -1,26 +1,33 @@
 # WIAL Global Chapter Hub
 
-A governed global website and chapter platform for the World Institute for Action Learning (WIAL).
 **One global platform. Local chapters. Smarter coach discovery.**
 
-## Overview
+A governed website and chapter platform for the World Institute for Action Learning (WIAL), designed to help global organizations scale without losing structure, visibility, or consistency.
 
-WIAL operates across multiple countries with independent chapters, but lacks a unified system to manage global consistency alongside local flexibility. Most organizations at this scale face fragmentation—separate sites, inconsistent branding, and poor cross-region visibility.
+## Problem
 
-We built a governed platform that solves this directly: a system where WIAL can maintain a single global identity while enabling chapters to create, publish, and operate within structured boundaries.
+WIAL operates across multiple countries, but chapter websites, content, and coach visibility are fragmented. This makes it difficult to maintain a unified brand, discover coaches across regions, and manage chapter operations effectively.
 
-## What We Built
+## Solution
 
-* Public WIAL website (About, Certification, Coaches, Chapters, Events, Resources, Contact)
-* Chapter platform with draft → review → approve → publish workflow
-* Global design system with controlled local content editing
-* Coach directory with global + chapter-level discovery
+We built a governed platform where:
+
+* WIAL maintains global control over structure and branding
+* Chapters can create and publish localized content within clear boundaries
+* Coaches are discoverable across languages and regions
+* Operational workflows like dues and payments are centralized
+
+## Features
+
+* Public WIAL site (About, Certification, Coaches, Chapters, Events, Resources, Contact)
+* Chapter creation with draft → review → approve → publish workflow
+* Global template with controlled local content editing
 * Cross-lingual AI-powered coach search
-* AI-generated, culturally adapted chapter content (with human review)
-* Smart coach matching based on natural language needs
-* Certification fit assistant using resume/background input
+* AI-generated, culturally adapted chapter content
+* Smart coach matching
+* Certification fit assistant
 * Dues and payment workflow (Stripe/PayPal ready)
-* Multilingual support and ElevenLabs text-to-speech
+* Multilingual support + ElevenLabs text-to-speech
 
 ## Tech Stack
 
@@ -28,7 +35,7 @@ Next.js, React, TypeScript, OpenAI (GPT-4o, text-embedding-3-small), ElevenLabs,
 
 ## Setup
 
-```bash
+```bash id="o8q1zl"
 git clone https://github.com/2026-ASU-WiCS-Opportunity-Hack/19-dyad.git
 cd 19-dyad
 npm install
@@ -40,31 +47,18 @@ npm run dev
 
 ## Demo Flow
 
-1. Open homepage
-2. Sign into workspace
-3. Create a chapter
-4. Generate AI chapter content
-5. Approve and publish
-6. View live chapter page
-7. Search coaches in another language
-8. Use “Find a Coach”
-9. Open dues portal and simulate payment
-10. Try translation or text-to-speech
+Homepage → Workspace → Create Chapter → Generate AI Content → Publish → View Live Page → Search Coaches (multi-language) → Match Coach → Dues Flow → Accessibility
+
+Demo link: https://youtu.be/ouEWZ2uYJwQ
 
 ## Notes
 
-* LMS is intentionally excluded (aligned with WIAL requirements)
-* AI is used selectively to improve discovery and reduce content friction
+* LMS intentionally excluded (aligned with WIAL brief)
+* AI used where it meaningfully improves discovery and content creation
 * Chapter publishing is governed to preserve global consistency
-* Payment flows support provider handoff when configured
 
 ## Team
 
 Team Dyad
 Vijaikumar Meenakshi Nandakumar
 Immanuvel Raja Nicholas Mani
-
-## Positioning
-
-We built a governed global chapter platform that enables WIAL to scale across regions without fragmentation—combining multilingual coach discovery, structured chapter publishing, and operational workflows in one unified system.
-
