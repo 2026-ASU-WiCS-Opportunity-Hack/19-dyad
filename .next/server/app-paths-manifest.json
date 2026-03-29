@@ -1,9 +1,0 @@
-{
-  "/certification/page": "app/certification/page.js",
-  "/coaches/page": "app/coaches/page.js",
-  "/page": "app/page.js",
-  "/resources/page": "app/resources/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/access/page": "app/access/page.js"
-}
