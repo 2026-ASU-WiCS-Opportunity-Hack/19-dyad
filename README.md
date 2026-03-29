@@ -105,24 +105,6 @@ cd 19-dyad
 npm install
 npm run import:coaches
 npm run dev
-🔐 Environment Variables
-
-Create a .env.local file:
-
-OPENAI_API_KEY=
-OPENAI_MODEL=gpt-5-mini
-OPENAI_EMBEDDING_MODEL=text-embedding-3-small
-
-STRIPE_SECRET_KEY=
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
-
-PAYPAL_CLIENT_ID=
-PAYPAL_CLIENT_SECRET=
-🔑 Workspace Access
-
-Visit:
-
-/access?redirect=/admin
 
 Available roles:
 
