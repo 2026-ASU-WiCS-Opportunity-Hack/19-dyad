@@ -1,64 +1,114 @@
-<<<<<<< HEAD
-# WIAL Global Chapter Hub
+🌍 Overview
 
-A governed website and chapter platform for the World Institute for Action Learning.
+WIAL is a global nonprofit with chapters across multiple countries. Their challenge is not building a new LMS—it’s maintaining a consistent global presence while enabling local chapters to operate independently.
 
-This build focuses on the actual WIAL website/platform brief:
-- public-facing WIAL website
-- governed chapter creation and publishing
-- global + chapter coach directory
-- multilingual discovery and reading support
-- chapter dues workflow with provider handoff paths
-- AI-supported chapter publishing and coach matching
+We built a governed chapter platform that allows WIAL to:
 
-## Product thesis
+maintain global brand consistency
+empower local chapters to create and publish content
+enable multilingual coach discovery
+support chapter-level operations like dues and payments
 
-**WIAL Global Chapter Hub is a governed chapter-network platform that combines multilingual coach discovery, culturally adapted chapter publishing, and chapter dues operations in one calm, low-bandwidth experience.**
+This project directly aligns with the official WIAL website/platform brief.
 
-## What is included
+🎯 Problem
 
-### Public site
-- Home
-- About WIAL
-- Certification information
-- Coach directory
-- Chapter network pages
-- Events
-- Resources and library
-- Contact
+As WIAL scales globally:
 
-### Governance workspace
-- Workspace sign-in
-- Chapter creation with template inheritance
-- Chapter dues and invoice workflow
-- AI-assisted chapter publishing workflow
+chapters create fragmented websites
+branding and content become inconsistent
+coaches are difficult to discover across regions and languages
+operational workflows like dues collection lack structure
 
-### AI features
-- **AI-1:** cross-lingual coach directory search using OpenAI query parsing + embeddings-backed retrieval when API credentials are present
-- **AI-2:** chapter-in-a-box content generation with cultural adaptation and human review before publish
-- **AI-3:** smart coach matching for prospective clients using the same retrieval backbone as AI-1
-- translation support for chapter and resource reading flows, with client-side caching
+The core challenge is balancing:
 
-## Key implementation notes
+global governance with local flexibility
 
-- The public site is intentionally calm, professional, and low-bandwidth aware.
-- The LMS is not rebuilt here; this project stays aligned to the WIAL website/platform brief.
-- Chapter publishing is reviewed before it becomes live.
-- Payment flows can hand off to Stripe or PayPal when credentials are configured. Without live provider credentials, the workflow still records a payment state and generates a believable receipt.
-- Coach data is intentionally conservative. A showcase layer is included to improve the demo quality for selected coaches and chapters.
+💡 Solution
 
-## Data sources
+We built a governed multi-chapter platform that combines:
 
-- `data/wial_coaches.csv` contains the imported public coach source
-- `src/lib/data/imported-coaches.json` contains the processed coach records
-- `src/lib/data/chapters.json` contains chapter scaffolding
-- `src/lib/data/showcase-overrides.json` contains curated chapter and coach enhancements used for the demo experience
+🌐 Public-facing WIAL website
+🏢 Chapter creation with controlled publishing workflows
+🔎 Global + chapter-level coach directory
+🌎 Cross-lingual AI-powered coach discovery
+✍️ AI-generated, culturally adapted chapter content
+💳 Chapter dues and payment workflows
+♿ Accessibility support (multilingual + text-to-speech)
+🧠 Key Features
+🌐 Public Website
+Home
+About
+Certification Information
+Coach Directory
+Chapters
+Events
+Resources & Library
+Contact
+🏢 Chapter Governance Platform
+Chapter creation with template inheritance
+Global design system with locked structure
+Editable local content zones
+Workflow: Draft → Review → Approve → Publish
+Live chapter pages at /chapters/[slug]
+🔎 Coach Directory
+Global and chapter-level views
+Searchable and filterable profiles
+Certification, location, and specialization awareness
+Structured, high-quality demo data
+🤖 AI Features
+AI-1: Cross-Lingual Coach Search
+Search in one language, find results in another
+Embeddings-based semantic retrieval
+AI explains why coaches match the query
+AI-2: Chapter-in-a-Box Content Generation
+Generate structured chapter content from minimal input
+Culturally adapted (not just translated)
+Requires human review before publishing
+AI-3: Smart Coach Matching
+Natural language “Find a Coach” experience
+Extracts intent, geography, and domain needs
+Returns ranked recommendations with reasoning
+AI-4: Certification Fit Assistant
+Paste resume or background
+AI suggests likely certification path and next steps
+Advisory only (not official evaluation)
+🌎 Accessibility & Multilingual Support
+Translation support across content
+Lightweight, low-bandwidth UI
+ElevenLabs text-to-speech integration
+Designed for global accessibility
+💳 Dues & Payments
+Chapter invoice and dues workflow
+Card entry and receipt states
+Stripe and PayPal handoff support
+Works in demo mode without live credentials
+🛠 Tech Stack
 
-## Environment variables
+Next.js, React, TypeScript, OpenAI (GPT-4o, text-embedding-3-small), ElevenLabs, PropelAuth, Stripe, PayPal
 
-Create `.env.local` in the project root:
+🏗 Architecture Notes
+Full-stack Next.js app with server-side API routes
+OpenAI used for reasoning + embeddings-based retrieval
+PropelAuth handles authentication and role-based access
+Environment variables used for secure key management
+Modular data layer with curated demo datasets
+📊 Data Sources
+data/wial_coaches.csv — raw coach data
+src/lib/data/imported-coaches.json — processed records
+src/lib/data/chapters.json — chapter scaffolding
+src/lib/data/showcase-overrides.json — curated demo enhancements
+⚙️ Setup Instructions
+git clone https://github.com/2026-ASU-WiCS-Opportunity-Hack/19-dyad.git
+cd 19-dyad
 
-```bash
+npm install
+npm run import:coaches
+npm run dev
+🔐 Environment Variables
+
+Create a .env.local file:
+
 OPENAI_API_KEY=
 OPENAI_MODEL=gpt-5-mini
 OPENAI_EMBEDDING_MODEL=text-embedding-3-small
@@ -68,120 +118,54 @@ NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
 
 PAYPAL_CLIENT_ID=
 PAYPAL_CLIENT_SECRET=
-```
+🔑 Workspace Access
 
-## Scripts
+Visit:
 
-```bash
-npm install
-npm run import:coaches
-npm run dev
-npm run typecheck
-npm run build
-```
+/access?redirect=/admin
 
-## Workspace access
+Available roles:
 
-Use `/access?redirect=/admin` to create a workspace session for:
-- Global Admin
-- Chapter Lead
+Global Admin
+Chapter Lead
+🎬 Recommended Demo Flow
+Start on homepage (platform overview)
+Sign into workspace
+Create a chapter
+Generate AI chapter content
+Approve and publish
+Open live chapter page
+Search coach directory in another language
+Use “Find a Coach”
+Open dues portal → simulate payment → show receipt
+Toggle translation or text-to-speech
+🧪 Key Design Decisions
+❌ Did NOT rebuild LMS (out of scope per WIAL brief)
+✅ Focused on governance, discovery, and operations
+✅ AI used selectively where it adds real value
+✅ Human review required for AI-generated content
+✅ Designed for low-bandwidth global usage
+⚠️ Known Limitations
+Payment integrations may run in demo mode without live credentials
+AI performance depends on API availability and input quality
+Demo data is curated for clarity and presentation
+🚀 Future Improvements
+Full production Stripe/PayPal integration
+Enhanced analytics and reporting
+Expanded multilingual coverage
+Deeper coach filtering and recommendation tuning
+Admin dashboards for global oversight
+🏆 Hackathon Context
 
-## Recommended demo path
+Built for:
+WiCS x Opportunity Hack Spring 2026
 
-1. Home page and platform story
-2. Workspace sign-in
-3. Create a chapter site
-4. Generate culturally adapted chapter content
-5. Approve and publish the chapter
-6. Open the live chapter route
-7. Search the coach directory in Portuguese or French
-8. Use the Find a Coach widget
-9. Open the dues portal, submit card details, and show the receipt/status change
-10. Toggle translated reading on a chapter or resource page
+👥 Team Dyad
+Vijaikumar Meenakshi Nandakumar
+Immanuvel Raja Nicholas Mani
+🔗 Links
+Devpost: https://devpost.com/submit-to/29203-women-in-computer-science-x-opportunity-hack-spring-2026-hackathon/manage/submissions/983291-wial-dyad/project_details/edit
 
-## Positioning line
+🧭 Positioning
 
-**“We built a governed multi-chapter platform that helps WIAL launch consistent chapter sites, lets organizations find the right coach across languages, and gives chapter leads culturally adapted content plus a complete dues workflow.”**
-=======
-# 2026_spring_wics_asu Hackathon Project
-
-## Quick Links
-- [Hackathon Details](https://www.ohack.dev/hack/2026_spring_wics_asu)
-- [DevPost Submission](https://wics-ohack-sp26-hackathon.devpost.com/)
-- [Team Slack Channel](https://opportunity-hack.slack.com/app_redirect?channel=team-19-dyad)
-
-## Team "Dyad"
-- Vijaikumar Meenakshi Nandakumar
-- Immanuvel Raja Nicholas Mani
-
-## Project Overview
-Brief description of your project and its goals.
-
-## Tech Stack
-- Frontend:
-- Backend:
-- Database:
-- APIs:
-<!-- Add/modify as needed -->
-
-
-## Getting Started
-Instructions on how to set up and run your project locally.
-
-```bash
-# Example commands
-git clone https://github.com/2026-ASU-WiCS-Opportunity-Hack/19-dyad.git
-cd 19-dyad
-# Add your setup commands here
-```
-
-
-## Checklist for the final submission
-### 0/Judging Criteria
-- [ ] Review the [judging criteria](https://www.ohack.dev/about/judges#judging-criteria) to understand how your project will be evaluated
-
-### 1/DevPost
-- [ ] Submit a [DevPost project to this DevPost page for our hackathon](https://wics-ohack-sp26-hackathon.devpost.com/) - see our [YouTube Walkthrough](https://youtu.be/rsAAd7LXMDE) or a more general one from DevPost [here](https://www.youtube.com/watch?v=vCa7QFFthfU)
-- [ ] Your DevPost final submission demo video should be 4 minutes or less
-- [ ] Link your team to your DevPost project on ohack.dev in [your team dashboard](https://www.ohack.dev/hack/2026_spring_wics_asu/manageteam)
-- [ ] Link your GitHub repo to your DevPost project on the DevPost submission form under "Try it out" links
-
-### 2/GitHub
-- [ ] Add everyone on your team to your GitHub repo [YouTube Walkthrough](https://youtu.be/kHs0jOewVKI)
-- [ ] Make sure your repo is public
-- [ ] Make sure your repo has a MIT License
-- [ ] Make sure your repo has a detailed README.md (see below for details)
-
-
-# What should your final README look like?
-Your readme should be a one-stop-shop for the judges to understand your project. It should include:
-- Team name
-- Team members
-- Slack channel
-- Problem statement
-- Tech stack
-- Link to your working project on the web so judges can try it out
-- Link to your DevPost project
-- Link to your final demo video
-- Instructions on how to run your project
-- Any other relevant links (e.g. Figma, GitHub repos for any open source libraries you used, etc.)
-
-
-You'll use this repo as your resume in the future, so make it shine! 🌟
-
-# Examples
-Examples of stellar readmes:
-- ✨ [2019 Team 3](https://github.com/2019-Arizona-Opportunity-Hack/Team-3)
-- ✨ [2019 Team 6](https://github.com/2019-Arizona-Opportunity-Hack/Team-6)
-- ✨ [2020 Team 2](https://github.com/2020-opportunity-hack/Team-02)
-- ✨ [2020 Team 4](https://github.com/2020-opportunity-hack/Team-04)
-- ✨ [2020 Team 8](https://github.com/2020-opportunity-hack/Team-08)
-- ✨ [2020 Team 12](https://github.com/2020-opportunity-hack/Team-12)
-
-Examples of winning DevPost submissions:
-- [1st place 2024](https://devpost.com/software/nature-s-edge-wildlife-and-reptile-rescue)
-- [2nd place 2024](https://devpost.com/software/team13-kidcoda-steam)
-- [1st place 2023](https://devpost.com/software/preservation-partners-search-engine)
-- [1st place 2019](https://devpost.com/software/zuri-s-dashboard)
-- [1st place 2018](https://devpost.com/software/matthews-crossing-data-manager-oj4ica)
->>>>>>> eb47716ad5df4497a764886932202fe4e88c211c
+We built a governed global chapter platform that helps WIAL launch consistent chapter sites, enables multilingual coach discovery, and provides AI-assisted publishing and dues workflows in one unified system.
